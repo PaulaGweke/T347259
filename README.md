@@ -15,3 +15,9 @@ Your python code needs to get the urls from the file and print their status code
 e.g. `(200) https://www.nytimes.com/1999/07/04/sports/women-s-world-cup-sissi-of-brazil-has-right-stuff-with-left-foot.html`
 Commit your Python file to GitHub and send us a link to it (by email, on our talk page, or replying to this tickect, as you prefer).
 Make sure to also register it as a contribution on the Outreachy website! We'll send you a reply to say whether it is accepted or not.
+
+
+## `Observation`
+* `Data Structure:` The data is a 2-D dataframe. No data cleaning was done on the data because the target was to write a script to give an output as close as the example.
+Status codes 200 (meaning Okay), 404 
+* It was observeed that some of the rows url were contained im more than 1 column of the csv file and so may be the cause of some of the 404 error. 
