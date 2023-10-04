@@ -18,7 +18,7 @@ Make sure to also register it as a contribution on the Outreachy website! We'll 
 
 
 ## `Observation`
-* `Data Structure:` The data is a 2-D dataframe. No data cleaning was done on the data because the target was to write a script to give an output as close as the example.
+* `Data Structure:` The input data is a 2-D dataframe. No data cleaning was done on the data because the target was to write a script to give an output as close as the example.
 Status codes 200 (meaning Okay), 404 (meaning page not found), Errors from Exceptions were output from the script
-* An option for write was also added to the script
-* It was observeed that some of the rows url were contained im more than 1 column of the csv file and so may be the cause of some of the 404 error. 
+* An option for write was also added to the script. The output is also filed for the 167 urls in the input csv. 
+* It was observed that some of the rows urls were contained im more than 1 column of the csv file and so may be the cause of some of the 404 error. 
